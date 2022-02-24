@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+.parent
+{
+    border: 2px dotted black;
+    display: inline-block;
+}
+
+.box
+{
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two
+{
+    background-color: goldenrod;
+}
+
+.madre 
+{
+    background-color: indianred;
+    width: 200px;
+    margin: 0 auto;
+    height: 100px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    
+}
+
+.hijo 
+{
+    
+    background-color: indigo;
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 5px;
+}

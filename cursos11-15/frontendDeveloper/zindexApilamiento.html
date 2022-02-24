@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index Apilamiento</title>
+    <style>
+        div
+        {
+            position: absolute;
+            background: palevioletred;
+        }
+
+        .one
+        {
+            z-index: 5;
+        }
+
+        .two
+        {
+            z-index: 4;
+        }
+
+        .red
+        {
+            width: 20px;
+            height: 20px;
+            background: red;
+            z-index: 5️;
+        }
+
+        .blue
+        {
+            width: 20px;
+            height: 20px;
+            background: navy;
+            z-index: 4;
+        }
+
+        .yellow
+        {
+            width: 20px;
+            height: 20px;
+            background: yellow;
+            z-index: 6;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- <div class="one">luis felipe</div>
+    <div class="two">El mejor</div> -->
+
+    <section>
+        <div class="red">red</div>
+        <div class="blue">Blue
+            <div class="yellow">
+                yellow
+            </div>
+        </div>
+    </section>
+</body>
+
+
+</html>

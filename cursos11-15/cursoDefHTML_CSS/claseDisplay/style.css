@@ -1,0 +1,14 @@
+.block-element
+{
+    background-color: green;
+    margin: 10px;
+    padding: 20px;
+}
+
+.nav
+{
+    background-color: hotpink;
+    padding: 20px;
+    list-style-type:none;
+    text-align: center;
+}
