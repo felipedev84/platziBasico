@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+
+
+let tallaZapato = parseInt(prompt("Ingrese el número de vueltas"))
+
+
+for(let i = 0; i < tallaZapato; i++)
+{
+	let zapatos = prompt("elige->1,  si hay un modelo de tu gusto, elige->nn si no hay. ")
+
+	if(zapatos < 10)
+	 {
+	 	let mensaje = prompt("Que modelo desea: clasico->0, deportivo->1, casual->2")
+	 	if(mensaje == 0)
+	 	{
+	 		let arrayZapato = ['clasico','deportivo','casual']
+	 		let modelo = arrayZapato[0]
+			document.write("Comprar zapatos: ",modelo)
+	 	}
+
+	 	if(mensaje == 1)
+	 	{
+	 		let arrayZapato = ['clasico','deportivo','casual']
+	 		let modelo2 = arrayZapato[1]
+			document.write("Comprar zapatos: ",modelo2)	
+	 	}
+
+
+	 	if(mensaje == 2)
+
+	 	{
+	 		let arrayZapato = ['clasico','deportivo','casual']
+	 		let modelo3 = arrayZapato[2]
+			document.write("Comprar zapatos: ",modelo3)
+	 	}
+	 	
+	 }
+
+	 else
+	 {
+	 	document.write("Elegir otros zapatos")
+	 }
+
+	
+
+}
+
+	
+
+	
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+	</script>
+</body>
+</html>

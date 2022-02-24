@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Peso en marte en relacion con su gravedad.</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="keywords" content="html,css,algoritmos">
+	<meta name="author" content="luis felipe">
+	<meta name="description" content="programa para solucion de algoritmo pesa en marte">
+
+</head>
+<body>
+		<h1>Tu peso en otro planeta.</h1>
+		<p>En la tierra pesas y piensas distinto que en marte.</p>
+
+		<script>
+			var usuario = prompt("cual es tu peso?");
+			var planeta=parseInt(prompt("Elige tu planeta \n 1 es marte, 2 es jupiter"));
+			var peso=parseInt(usuario);
+			var g_tierra=9.8;
+			var marte=3.7;
+			var jupiter=24.8;
+			var peso_final;
+			var mensaje;
+
+
+			if (planeta==1) 
+			{
+				peso_final=peso*marte/g_tierra;
+				mensaje="marte es";
+			}
+			else if(planeta==2)
+			{
+				peso_final=peso*jupiter/g_tierra;
+				mensaje="jupiter es";
+			}
+			else
+			{
+				peso_final=1000000;
+				mensaje="cripton es";
+			}
+		
+		
+			peso_final=parseInt(peso_final);
+			document.write("tu peso en <strong>"+mensaje+peso_final+" kilos <strong>");
+		</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Buscando la posicion del arreglo</h1>
+
+	<script>
+
+
+/* numbers= futuro array de numeros
+length= dice el tamaño del array*/
+
+		function secondLargeNumber(numbers)
+		{
+
+/*primera posicion que vamos a partir en el array de numeros*/
+			let first = numbers[0]
+			let second = 0;
+
+			/*ciclo para que recorra todo el array de numeros*/
+
+			for(let i=0; i < numbers.length; i++)
+			{
+				if(numbers[i] > first)
+				{
+					second = first
+					first = numbers[i]
+				
+
+				}
+
+
+				if(numbers[i] > second && numbers[i] < first)
+					{
+						second = numbers[i]
+					}
+			}
+
+			return second
+		}
+		let nums = [8,4,6,10,11]
+		document.write(secondLargeNumber(nums))
+	</script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+
+	
+	<h1>Aprendiendo de funciones</h1>
+	
+	<script>
+
+		/*=============================================
+		=            Section comment block            =
+		=============================================*/
+		
+		document.write("Mensaje <br />")
+		// let mensaje = decirHola()
+		document.write(decirHola())
+
+		function decirHola()
+		{
+			return "hola"
+		}
+		
+		/*=====  End of Section comment block  ======*/
+		
+
+		
+		/*=============================================
+		=            Section comment block            =
+		=============================================*/
+		
+		document.write("<br /> resultado suma->")
+		// let totalSuma = suma(5,5)
+		document.write(suma(5,5))
+
+
+		function suma(num1, num2)
+		{
+
+			return num1 + num2
+		}
+		
+		/*=====  End of Section comment block  ======*/
+		
+
+		
+		/*=============================================
+		=            Section comment block            =
+		=============================================*/
+			
+			document.write("<br /> resultado resta->  ")
+			// let totalResta = resta(10,5)
+			document.write(resta(10,5))
+
+
+			function resta(num1, num2)
+			{
+				return num1 - num2
+			}
+		
+		
+		/*=====  End of Section comment block  ======*/
+		
+
+		/*=============================================
+		=            Section comment block            =
+		=============================================*/
+			
+
+		document.write("<br /> resultado multiplicar-> ")
+		// let total = multiplicar(3,4)
+		document.write(multiplicar(3,4))
+
+
+		function multiplicar(num1, num2)
+		{
+			return num1 * num2
+		}
+		
+		
+		/*=====  End of Section comment block  ======*/
+		
+
+		/*=============================================
+		=            Section comment block            =
+		=============================================*/
+		
+			document.write("<br /> resultado division-> ")
+			//let totalDivision = division(8,5)
+			document.write(division(10,2))
+
+			function division(num1, num2)
+			{
+				return num1 / num2
+			}
+		
+		/*=====  End of Section comment block  ======*/
+		
+
+
+		
+
+		document.write("<br /> hipotenusa-> ")
+		//hipotenusa = hipotenusa(3,3)
+		document.write(hipotenusa(3,3))
+
+		function hipotenusa(lado1, lado2)
+		{
+			let raiz = Math.sqrt( Math.pow(lado1,2) + Math.pow(lado2,2) )
+			return raiz
+		}
+
+
+		 
+</script>	
+</body>
+</html>

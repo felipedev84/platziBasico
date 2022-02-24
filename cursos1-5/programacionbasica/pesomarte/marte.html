@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Peso en marte en relacion con su gravedad.</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="keywords" content="html,css,algoritmos">
+	<meta name="author" content="luis felipe">
+	<meta name="description" content="programa para solucion de algoritmo pesa en marte">
+
+</head>
+<body>
+		<h1>Tu peso en otro planeta</h1>
+		<p>en la tierra pesas y piensas distinto que en marte.</p>
+
+		<script>
+			var usuario = prompt("cual es tu peso?");
+			var peso=parseFloat(usuario);
+			var g_tierra=9.8;
+			var marte=3.7;
+			var jupiter=24.8;
+			
+			var peso_final;
+			/* Hacemos la ecuaciòn de la regla de tres. */
+			
+			peso_final=peso*marte/g_tierra;
+			peso_final=parseFloat(peso_final);
+			document.write("Tu peso en marte es: <strong>"+peso_final+ " kilos<strong>");
+		</script>
+</body>
+</html>

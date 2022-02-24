@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+
+		function  mayusculasMinusculas(s)
+		{
+			let resultado;
+			for(idxLetra in s)
+			{
+				
+				if(s.charAt(idxLetra) == s.charAt(idxLetra).toUpperCase())
+				{
+					resultado = s.charAt(idxLetra).toLowerCase()
+					
+					
+				}
+				else
+				{
+					resultado = s.charAt(idxLetra).toUpperCase()
+
+				}
+
+				console.log(idxLetra,"->",s.charAt(idxLetra))
+
+
+			}
+
+			return (resultado)
+			
+		
+		}
+		resultado=mayusculasMinusculas("hola TODOS")
+		
+		document.write(resultado)
+		
+
+	
+		
+	</script>
+
+	
+</body>
+</html>

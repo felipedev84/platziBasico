@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+
+		let numbers;
+		numbers = prompt("ingrese 10, 20,  o 30")
+
+		for(let i = 0; i < numbers; i++)
+		{	
+			let posicion = prompt("indique una posicion");
+			if(posicion > 0)
+			{
+				let cadenaString = "como vamos"
+				document.write(cadenaString.length-1)
+				
+			}
+				
+		}
+		
+
+		let arreglo = [['a','b','c','d'],[1,2,3,4],['A','B','C','D']]
+		let posicion = arreglo[0][1]
+		document.write(posicion)
+	</script>
+</body>
+</html>
