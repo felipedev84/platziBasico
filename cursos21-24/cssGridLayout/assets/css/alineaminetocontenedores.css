@@ -1,0 +1,20 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: seashell;
+    width: 500px;
+    height: 100vh;
+    align-items: start;
+    margin: 0 auto;
+    
+
+}
+
+.item{
+   
+    background: salmon;
+    width: 100px;
+    height: 200px;
+    border: 3px solid black;
+
+}

@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: aqua;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* direction: ltr;
+    writing-mode: vertical-rl; */
+}
+
+.card-header {
+    background-color: sandybrown;
+    height: 40px;
+}
+
+.card-main {
+    background-color: gold;
+    height: 40px;
+}

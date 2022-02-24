@@ -1,0 +1,32 @@
+section{
+    background: seashell;
+    border-radius: 5px;
+    display: grid;
+    grid-template-areas: "header header header"
+                          "text text text"
+                          "side footer footer";
+    
+    padding: 20px;
+    width: 300px;
+}
+
+h1{
+    grid-area: header;
+    margin: 0px;
+}
+
+p{
+    grid-area: text;
+    color: gray;
+}
+
+footer{
+    grid-area: footer;
+    justify-self:end;
+}
+
+button{
+    background: skyblue;
+    border-bottom: 1px solid white;
+    color: white;
+}

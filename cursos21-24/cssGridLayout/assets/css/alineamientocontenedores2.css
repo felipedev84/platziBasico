@@ -1,0 +1,18 @@
+.container{
+    background: aqua;
+    width: 500px;
+    height: 300px;
+    border: 3px solid black;
+    display: grid;
+
+   
+    align-content:center;
+    justify-content: center;
+}
+
+.item{
+    background: sandybrown;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+} 

@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    background-color: aquamarine;
+    position: absolute;
+}
+
+.container{
+    background-color: blueviolet;
+    width: 300px;
+}

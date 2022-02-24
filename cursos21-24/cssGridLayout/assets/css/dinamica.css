@@ -1,0 +1,59 @@
+/* .section-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  
+}
+
+.article-post{
+    background: darkorange;
+}
+
+.article-post2{
+    background: salmon;
+}
+
+.article-post3{
+    background: darkolivegreen;
+}
+
+.article-post4{
+    background: hotpink;
+}
+
+.article-post5{
+    background: saddlebrown;
+}
+
+.article-post6{
+    background: red;
+} */
+
+/* Dinamica con flex. */
+ .nav{
+    background: seashell;
+    display:flex;
+    width: 500px;
+    margin: 0 auto;
+    justify-content: space-between;
+    border: 3px solid black;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.nav-icons{
+    display:flex;
+    align-items: center;
+}
+
+img{
+    width: 20px;
+    margin-right: 20px;
+} 
+
+
+
+

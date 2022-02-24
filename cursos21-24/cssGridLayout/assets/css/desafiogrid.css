@@ -1,0 +1,32 @@
+body {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+
+.container {
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.item {
+    background-color: #ffefd5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.item2 {
+    background-color: #7cfc00;
+}
+
+
+
+section span {
+    background-color:saddlebrown;
+}

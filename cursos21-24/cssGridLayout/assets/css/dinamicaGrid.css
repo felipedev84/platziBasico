@@ -1,0 +1,35 @@
+.nav{
+    background: seashell;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.item{
+    align-self: center;
+    justify-self: center;
+}
+
+.nav__item--1{
+    grid-column: 1;
+}
+
+.nav__item--2{
+    grid-column: span 2;
+}
+
+.nav__item--3{
+    grid-column: 6;
+}
+.nav__item--4{
+    grid-column: 7;
+}
+.nav__item--5{
+    grid-column: 8;
+}
+
+img{
+    width: 20px;
+}

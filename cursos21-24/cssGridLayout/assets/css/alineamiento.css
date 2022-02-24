@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    background-color: aqua;
+    border: 1px solid black;
+    justify-content: center;
+    display: grid;
+}
+
+.container-item{
+    
+    display: grid;
+    align-content:center;
+    grid-template-columns: repeat(5, 1fr); 
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+}
+
+
+
