@@ -1,0 +1,6 @@
+Una grilla es un sistema de columnas en donde vamos acomodar 
+sus componentes.
+se debe configurar los breakpoints
+
+Hacer un mixin de las variables. utilizar sas para modificar los breakpoints 
+que tengamos. Configurar las columnas

@@ -1,0 +1,23 @@
+"paletas de color"
+
+Colores primarios secundarios y terciarios.
+
+"Combinación mocdnocromática."
+
+Consiste en utilizar un solo color y manejar los niveles de opacidad.
+
+"Combinación analoga"
+cd
+ Consiste en combinar un color primario un color secundario y un color terciario.
+
+"Combinación complementaria"
+
+Consiste en combinar un color primario y  un secundario.
+
+
+"Combinación triádica"
+Consiste en crear un trangulo en el círculo cromático.
+
+"Combinación tetrada"
+
+Consiste en combinar cuatro tipos de colores.

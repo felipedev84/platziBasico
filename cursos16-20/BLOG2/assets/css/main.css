@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2? family= Creepster & family= Encode+Sans:wght@400;700 & family= Roboto:wght@400;500;700;900 & mostrar=cambiar');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+    font-family: 'Roboto Mono', sans-serif;
+    background: seashell;
+    margin: 0 auto;
+    width: 70%;
+}
+
+header{
+  margin: 0 auto;
+  width: 70%;
+}
+
+.nav-container-icons{
+  display: flex;
+  justify-content: end;
+
+}
+
+.nav-container-icons span img{
+  margin: 5px;
+}
+
+.profile__main--proyects{
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 70%;
+}
+
+.flex__post--container
+{
+  display: flex;
+  margin-top: 50px;
+}
+
+article{
+  margin: 5px;
+}
+
+.container__img img{  
+  width: 100%;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.profile__main--container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+h2{
+  margin-top: 50px;
+  color: aqua;
+}
+
+
+h3{
+  text-align: center;
+  margin-top: 50px;
+  color: sandybrown;
+}
+
+h4{
+  color: salmon;
+}
+
+.paragraph__post{
+  text-align: justify;
+}
+
+.paragraph__contact{
+  text-align: center;
+}
+.paragraph__description{
+  margin-top: 20px;
+}
+
+.section__contact--container{
+  display: flex;
+  width: 70%;
+  margin: 0 auto; 
+  margin-top: 20px;
+}
+
+.container__profile{
+  margin-top: 20px;
+}
+
+.section__contact--container img{
+  width: 20%;
+}
+
+.div__contact--left, .div__contact--right{
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.contact__left a, .contact__right a{
+  text-decoration: none;
+  color: salmon;
+  margin-left: 30px;
+}
+
+footer{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+  background: sandybrown;
+  border-top: 10px solid salmon;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

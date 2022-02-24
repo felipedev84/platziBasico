@@ -1,0 +1,26 @@
+"Formatos graficos de movimiento"
+
+"css animado."
+
+indicado para animaciones sencillas y transiciones.
+
+"svg animado."
+
+Indicado para animaciones de elementos vectoriales.
+
+js (canvas, webgl)
+
+indicado para animaciones complejas como animaciones 3D
+
+"Videos"
+
+Indicado para filmaciones y animaciones de alta complejidad y corta duración.
+
+"Como elegir graficos en movimiento"
+
+Procura que no se reproduzcan automáticamente y si lo hacen que
+no tengan sonido.
+
+Evita que las animaciones bloqueen la lectura basica del contenido.
+Recuerda que las animaciones y videos afectan el rendimiento de 
+tu pagina.

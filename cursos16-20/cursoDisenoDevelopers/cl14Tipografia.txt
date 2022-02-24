@@ -1,0 +1,9 @@
+Clase 14 tipografia.
+
+Manten el número de fuentes al mínimo.
+Trata de usar fuentes estandar.
+Limita la cantidad de texto.
+Elige tipografías que sean legibles en diferentes espacios.
+Manten altos de linea espaciados.
+Asegurate de tener suficiente contraste.
+Evita usar animaciones intermitentes.

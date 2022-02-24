@@ -1,0 +1,121 @@
+/* Aquí empieza el codigo de proyects.html */
+
+body {
+	margin: 0;
+	height: 100vh;
+	background: linear-gradient(to right bottom, gold, chocolate);
+}
+
+nav ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.post-general
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+	column-gap: 20px;
+	row-gap: 20px;
+	padding: 20px;
+}
+
+.post-container img
+{
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border: 1px solid white;
+}
+
+.container-article
+{
+	margin: 0 auto;
+	width: 700px;
+}
+
+.post-general p
+{
+	text-align: justify;
+	color: white;
+}
+
+.title-post-container
+{
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	font-size: 40px;
+	font-family: sans-serif;
+	background-color: white;
+	border: 2px solid black;
+	letter-spacing: 0.1em;
+	width: 5em;
+	height: 1.5em;
+	line-height: 1.5em;
+	position: relative;
+	overflow: hidden;
+	margin: 0.5em;
+	cursor: pointer;
+}
+
+nav ul li span {
+	color: white;
+	mix-blend-mode: difference;
+}
+
+nav ul li::before {
+	content: '';
+	position: absolute;
+	width: 1.5em;
+	height: inherit;
+	background-color: black;
+	border-radius: 50%;
+	top: 0;
+	left: -0.75em;
+	transition: 0.5s ease-out;
+}
+
+nav ul li:hover::before {
+	transform: scale(7);
+}
+
+footer ul
+{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+
+footer .social a
+{
+	text-decoration: none;
+
+}
+
+
+footer .social li
+{
+	list-style-type: none;
+	margin: 5px;
+}
+
+
+
+  
+  
+  /* Hasta aquí es el codigo de proyects.html */
+  

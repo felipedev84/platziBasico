@@ -1,0 +1,11 @@
+THEMES Y CUSTOMIZACIONES
+Otra herramienta que podemos hacer uso en nuestra aplicación son los themes.
+¿Qué es un themes? Es una capa de color y estilos que se añade por encima de nuestra aplicación
+y nos permite tener distintas variaciones sin hacer cambios drásticos en nuestro código. 
+En otras palabras, theme es un archivo donde tenemos configurado la presentación visual de toda la aplicación.
+Teniendo dos o más theme podremos tener dos o más presentaciones visuales.
+Para hacer los themes fácilmente podemos hacerlo por medio de variables de css o variables de Sass.
+Las variables de Sass son más sencillas.
+Para tener varios themes, se crean un archivo de css por cada theme, pudiéndose intercambiar una por otra desde 
+una archivo donde se configuran todos los archivos importados, sin tener que cambiar toda la programación de la aplicación. 
+Simplemente con cambiar el nombre de un archivo por otro se realiza el cambio de theme.
