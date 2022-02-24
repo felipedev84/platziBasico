@@ -1,0 +1,20 @@
+clase 2 que es el navegador?
+
+Los navegadores funcionan con un protocolo que define como se realiza la transferencia de datos a travel de internet .Es llamado
+
+HTTP : Hypertext Transfer Protocol (Protocolo de Transferencia de Hipertexto)
+HTTPS: Hypertext Transfer Protocol Secure (Protocolo de Transferencia de Hipertexto Seguro)
+En la actualida la manera de escribir, leer e interpretar los datos transferidos a travel de 3 lenguajes que todos los navegadores pueden entender. Estos son:
+
+HTML: HyperText Markup Language
+CSS: Cascade Style Sheet
+Javascript: Es el lenguaje que le da interaction a las paginas
+Google Chrome es uno de los navegadores mas modernos y mas utilizado, el cual tiene 3 versiones:
+
+Google Stable. Version que todos usamos
+Google Dev: Version para desarrolladores que contiene las nuevas funcionalidades y el navegador se actualiza semanalmente
+Google Canary: Version para desarrolladores que contiene las nuevas funcionalidades y el navegador se actualiza diariamente
+Otro navegador muy comun es Firefox que tambien cuenta con 2 versiones:
+
+Firefox: Version normal
+Firefox Dev: Version para desarrolladores
